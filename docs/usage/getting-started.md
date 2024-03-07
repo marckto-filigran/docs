@@ -15,7 +15,7 @@ Here are some examples of use cases:
 <a id="dashboard-section"></a>
 ## Welcome dashboard
 
-The welcome gives any visitor on the OpenCTI platform an outlook on the live of the platform. It can be replaced by a [custom dashboard](dashboards.md), created by a user (or the default dashboard in a role, a group or an organization).
+The welcome dashboard gives the visitor an overview of the threat data in the platform. It can be replaced by a [custom dashboard](dashboards.md), created by a user (or defined at the level of a role, a group or an organization).
 
 ![Dashboard](assets/dashboard.png)
 
@@ -23,12 +23,12 @@ The welcome gives any visitor on the OpenCTI platform an outlook on the live of 
 
 #### Numbers
 
-| Component             | Description                                                                                                    |
-| :-------------------- | :------------------------------------------------------------------------------------------------------------- |
-| Total entities        | Number of entities (`threat actor`, `intrusion set`, `indicator`, etc.).                                       |
-| Total relationships   | Number of relationships (`targets`, `uses`, `indicates`, etc.).                                                |
-| Total reports         | Number of reports.                                                                                             |
-| Total observables     | Number of observables (`IPv4-Addr`, `File`, etc.).                                                             |
+| Component             | Description                                                              |
+| :-------------------- |:-------------------------------------------------------------------------|
+| Total entities        | Number of entities (`Threat Actor`, `Intrusion Set`, `Indicator`, etc.). |
+| Total relationships   | Number of relationships (`targets`, `uses`, `indicates`, etc.).          |
+| Total reports         | Number of reports.                                                       |
+| Total observables     | Number of observables (`IPv4-Addr`, `File`, etc.).                       |
 
 #### Charts & lists
 
